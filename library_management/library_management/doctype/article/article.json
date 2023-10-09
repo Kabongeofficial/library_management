@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:article_name",
+ "autoname": "AT.#####",
  "creation": "2023-10-09 11:56:38.865216",
  "default_view": "List",
  "doctype": "DocType",
@@ -69,11 +69,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-09 12:55:01.311818",
+ "modified": "2023-10-09 17:31:16.783046",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -109,7 +109,9 @@
    "share": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

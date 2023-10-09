@@ -1,56 +1,50 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "LM.#####",
- "creation": "2023-10-09 13:04:39.921081",
+ "autoname": "LT.####",
+ "creation": "2023-10-09 17:04:39.530248",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "first_name",
-  "last_name",
-  "full_name",
-  "email",
-  "phone_no"
+  "article",
+  "library_member",
+  "type",
+  "date"
  ],
  "fields": [
   {
-   "fieldname": "first_name",
-   "fieldtype": "Data",
-   "label": "First Name"
+   "fieldname": "article",
+   "fieldtype": "Link",
+   "label": "Article",
+   "options": "Article"
   },
   {
-   "fieldname": "last_name",
-   "fieldtype": "Data",
-   "label": "Last Name"
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "label": "Library Member",
+   "options": "Library Member"
   },
   {
-   "fieldname": "full_name",
-   "fieldtype": "Data",
-   "label": "Full Name",
-   "read_only": 1,
-   "unique": 1
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Issue\nReturn"
   },
   {
-   "fieldname": "email",
-   "fieldtype": "Data",
-   "label": "Email",
-   "options": "Email"
-  },
-  {
-   "fieldname": "phone_no",
-   "fieldtype": "Phone",
-   "label": "Phone No",
-   "options": "Phone "
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2023-10-09 17:19:04.615937",
+ "modified": "2023-10-09 17:08:19.699161",
  "modified_by": "Administrator",
  "module": "Library Management",
- "name": "Library Member",
+ "name": "Library Transaction",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
