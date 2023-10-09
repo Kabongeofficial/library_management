@@ -1,6 +1,6 @@
 app_name = "library_management"
 app_title = "Library Management"
-app_publisher = "Kabonge"
+app_publisher = "kabonge"
 app_description = "Library management system"
 app_email = "kabongeofficial@gmail.com"
 app_license = "mit"
