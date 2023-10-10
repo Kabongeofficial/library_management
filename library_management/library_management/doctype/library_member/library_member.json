@@ -35,7 +35,7 @@
   },
   {
    "fieldname": "phone_no",
-   "fieldtype": "Data",
+   "fieldtype": "Phone",
    "label": "Phone No",
    "options": "Phone"
   },
@@ -48,7 +48,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-10 14:43:55.085965",
+ "modified": "2023-10-10 15:04:20.091893",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
