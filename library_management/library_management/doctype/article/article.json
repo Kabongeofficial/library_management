@@ -15,6 +15,7 @@
   "status",
   "image",
   "publisher",
+  "route",
   "section_break_n7me",
   "description"
  ],
@@ -27,6 +28,7 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Image"
   },
   {
@@ -62,11 +64,17 @@
   {
    "fieldname": "section_break_n7me",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "route"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-10 13:29:24.876593",
+ "modified": "2023-10-12 16:51:51.666630",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
@@ -108,6 +116,7 @@
   }
  ],
  "quick_entry": 1,
+ "route": "articles",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
