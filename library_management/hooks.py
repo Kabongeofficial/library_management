@@ -1,8 +1,8 @@
 app_name = "library_management"
 app_title = "Library Management"
-app_publisher = "kabonge"
-app_description = "Library management system"
-app_email = "kabongeofficial@gmail.com"
+app_publisher = "Kabonge"
+app_description = "Library Management System"
+app_email = "musakabonge01@gmail.com"
 app_license = "mit"
 # required_apps = []
 

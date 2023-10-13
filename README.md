@@ -1,6 +1,6 @@
 ## Library Management
 
-Library management system
+Library Management System
 
 #### License
 
