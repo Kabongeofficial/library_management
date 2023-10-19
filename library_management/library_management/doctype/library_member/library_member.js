@@ -13,5 +13,11 @@ frappe.ui.form.on('Library Member', {
                 library_member: frm.doc.name
             })
         })
+
+        frm.add_custom_button('Create Attendance', () => {
+            frappe.new_doc('Library Attendance', {
+                library_member: frm.doc.name
+            })
+        })
     }
 });
